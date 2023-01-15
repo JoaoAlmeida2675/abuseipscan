@@ -1,8 +1,10 @@
-############################################
+[![Lint Code Base](https://github.com/JoaoAlmeida2675/abuseipscan/actions/workflows/super-linter.yml/badge.svg?branch=main&event=push)](https://github.com/JoaoAlmeida2675/abuseipscan/actions/workflows/super-linter.yml)
+
+
+
 ############################################
 #          The AbuseIpScanner
 #               V-1.0
-############################################
 ############################################
 
 ****************** READ NOTE ******************
@@ -21,11 +23,4 @@ You will need to put the API KEY every time you open the application.
 
 3 - Click on "Search Abusedb" button to show you the list os IPs, without duplicates and only the flagged ones, in the text box.
 
-
-
-
-
-
-
-
-[![Lint Code Base](https://github.com/JoaoAlmeida2675/abuseipscan/actions/workflows/super-linter.yml/badge.svg?branch=main&event=push)](https://github.com/JoaoAlmeida2675/abuseipscan/actions/workflows/super-linter.yml)
+4 - Save your search to a file, if you want to.
