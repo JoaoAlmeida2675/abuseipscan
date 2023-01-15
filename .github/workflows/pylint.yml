@@ -20,5 +20,5 @@ jobs:
         pip install pylint autopep8
     - name: Fix code style issues and analyse the code with pylint
       run: |
-        autopep8 --in-place --aggressive --aggressive your_code.py
+        autopep8 --in-place --aggressive --aggressive abuseipscan.py
         pylint abuseipscan.py
