@@ -18,8 +18,8 @@ jobs:
         
     - name: Fix code style issues
       run: |
-        autopep8 --in-place --aggressive your_code.py
+        autopep8 --in-place --aggressive abuseipscan.py
 
     - name: Analyze code with pylint
       run: |
-        pylint your_code.py
+        pylint abuseipscan.py
