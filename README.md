@@ -39,3 +39,5 @@ Save your search to a file, if you want to.
 <h2>Note</h2>
 
 Please make sure to use your API KEY and keep it confidential, as it is a sensitive information.
+
+<hr>
