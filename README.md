@@ -2,25 +2,28 @@
 
 
 
-############################################
-#          The AbuseIpScanner
-#               V-1.0
-############################################
+## IP Address Scanner
 
-****************** READ NOTE ******************
+This Python code opens a file containing IP addresses and checks them against the AbuseIPDB database. If any of the IPs are flagged, the ip will be displayed in a window. The user has the option to save this information to a file.
 
+Usage
 Use the Test_Log file to test the application.
 
 You have the option to save the abuseip list to a file of your choice. Just click "Save to File" and choose the directory and the file type to save.
 
 You will need to put the API KEY every time you open the application.
 
-****************** HOW TO USE ******************
+Step 1
+You need to have an account in Abuseipdb.com, to use your API KEY. Click the "API KEY" button to put your key.
 
-1 - You need to have an account in Abuseipdb.com, to use your API KEY. Click the "API KEY" button to put your key.
+Step 2
+Choose the file you want to scan to filter IPs.
 
-2 - Choose the file you want to scan to filter IPs.
+Step 3
+Click on "Search Abusedb" button to show you the list os IPs, without duplicates and only the flagged ones, in the text box.
 
-3 - Click on "Search Abusedb" button to show you the list os IPs, without duplicates and only the flagged ones, in the text box.
+Step 4
+Save your search to a file, if you want to.
 
-4 - Save your search to a file, if you want to.
+Note
+Please make sure to use your API KEY and keep it confidential, as it is a sensitive information.
