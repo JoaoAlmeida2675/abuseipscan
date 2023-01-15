@@ -111,7 +111,7 @@ if __name__ == '__main__':
     open_file_button.pack()
 
     # Create the Search IPs button
-    search_ips_button = tk.Button(window, text="Search IPs", command=search_ips_button_clicked)
+    search_ips_button = tk.Button(window, text="Search Abusedb", command=search_ips_button_clicked)
     search_ips_button.pack()
 
     # Create the IP list box
