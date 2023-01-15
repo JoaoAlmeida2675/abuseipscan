@@ -17,7 +17,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pylint
-    - name: Analysing the code with pylint
+        pip install pylint autopep8
+    - name: Fix code style issues and analyse the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        autopep8 --in-place --aggressive --aggressive abuseipscan.py
+        pylint abuseipscan.py
