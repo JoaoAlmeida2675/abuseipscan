@@ -37,7 +37,7 @@ def enter_api_key():
     save_api_key_button.pack()
 
 
-# Function to open a file
+# Function to open a file.
 def open_file():
     """
     Open a file
