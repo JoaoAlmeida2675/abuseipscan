@@ -12,11 +12,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install autopep8
-
+    - name: Install pylint
+      run: |
+        python -m pip install pylint
+        
     - name: Fix code style issues
       run: |
-        autopep8 --in-place --aggressive abuseipscan.py
+        autopep8 --in-place --aggressive your_code.py
 
     - name: Analyze code with pylint
       run: |
-        pylint abuseipscan.py
+        pylint your_code.py
