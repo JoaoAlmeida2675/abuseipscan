@@ -34,6 +34,8 @@ Click on "Search Abusedb" button to show you the list os IPs, without duplicates
 
 Save your search to a file, if you want to.
 
+<hr>
+
 <h2>Note</h2>
 
 Please make sure to use your API KEY and keep it confidential, as it is a sensitive information.
