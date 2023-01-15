@@ -108,5 +108,5 @@ if __name__ == '__main__':
     close_button = tk.Button(window, text="Close", command=close_button_clicked)
     close_button.pack()
 
-    # Run the main loop
+    # Run the main loop.
     window.mainloop()
