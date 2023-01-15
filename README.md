@@ -14,6 +14,8 @@ You have the option to save the abuseip list to a file of your choice. Just clic
 
 You will need to put the API KEY every time you open the application.
 
+<hr>
+
 <h3>Step 1</h3>
 
 You need to have an account in Abuseipdb.com, to use your API KEY. Click the "API KEY" button to put your key.
