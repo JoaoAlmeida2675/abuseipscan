@@ -27,6 +27,8 @@ jobs:
           paths: |
             abuseipscan.py
             !*.md
+            !*.yml
+            !*.yaml
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: "main"
